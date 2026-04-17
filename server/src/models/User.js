@@ -36,6 +36,10 @@ const userSchema = new mongoose.Schema({
     enum: ['user', 'admin'],
     default: 'user',
   },
+  googleId: {
+    type: String,
+    default: null,
+  },
   resetToken: String,
   resetTokenExpiry: Date,
 }, {
