@@ -11,6 +11,7 @@ const categoryRoutes = require('./routes/categoryRoutes')
 const layoutRoutes = require('./routes/layoutRoutes')
 const articleRoutes = require('./routes/articleRoutes')
 const adRoutes = require('./routes/adRoutes')
+const webmixRoutes = require('./routes/webmixRoutes')
 
 const app = express()
 
@@ -47,6 +48,7 @@ app.use('/api/categories', categoryRoutes)
 app.use('/api/layouts', layoutRoutes)
 app.use('/api/articles', articleRoutes)
 app.use('/api/ads', adRoutes)
+app.use('/api/webmixes', webmixRoutes)
 
 // Health check
 app.get('/api/health', (req, res) => {

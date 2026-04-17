@@ -149,6 +149,17 @@ function Header() {
           >
             More ▸
           </Link>
+
+          {/* Spacer */}
+          <div className="flex-1" />
+
+          {/* Add Webmix / Webspaces button */}
+          <Link
+            to="/webspaces"
+            className="shrink-0 flex items-center gap-1.5 px-3 py-1.5 my-0.5 rounded-full text-[10px] font-bold bg-brand-green text-white hover:bg-brand-green/90 transition-colors"
+          >
+            + Add a Public Webspace
+          </Link>
         </div>
       </div>
     </header>

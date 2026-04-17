@@ -7,6 +7,7 @@ import ResetPassword from './pages/ResetPassword'
 import Categories from './pages/Categories'
 import CategoryPage from './pages/CategoryPage'
 import Settings from './pages/Settings'
+import Webspaces from './pages/Webspaces'
 
 function AppRoutes() {
   return (
@@ -20,6 +21,7 @@ function AppRoutes() {
       <Route path="/category/:slug" element={<CategoryPage />} />
       <Route path="/category/:slug/:tab" element={<CategoryPage />} />
       <Route path="/settings" element={<Settings />} />
+      <Route path="/webspaces" element={<Webspaces />} />
     </Routes>
   )
 }
