@@ -1,0 +1,52 @@
+@import "tailwindcss";
+
+/* Right360 Brand Colors & Design Tokens */
+@theme {
+  --color-brand-red: #D94444;
+  --color-brand-green: #4CAF50;
+  --color-brand-olive: #6B9E3A;
+  --color-brand-purple: #7B5EA7;
+  --color-brand-gray: #7A7A7A;
+  --color-brand-orange: #E8842A;
+  --color-brand-blue: #3F8ECF;
+  --color-brand-brown: #A0522D;
+
+  --color-primary: #3F8ECF;
+  --color-secondary: #7B5EA7;
+  --color-accent: #E8842A;
+  --color-success: #4CAF50;
+  --color-danger: #D94444;
+  --color-warning: #E8842A;
+  --color-info: #3F8ECF;
+  --color-neutral: #7A7A7A;
+
+  --color-surface: #FFFFFF;
+  --color-page: #F5F7FA;
+  --color-text-primary: #1A1A2E;
+  --color-text-muted: #6B7280;
+  --color-border: #E5E7EB;
+
+  --font-sans: 'Inter', system-ui, sans-serif;
+  --font-heading: 'Poppins', sans-serif;
+
+  --radius-tile: 12px;
+  --radius-card: 8px;
+
+  --shadow-tile: 0 2px 8px rgba(0, 0, 0, 0.08);
+  --shadow-tile-hover: 0 4px 16px rgba(0, 0, 0, 0.12);
+  --shadow-card: 0 1px 4px rgba(0, 0, 0, 0.06);
+}
+
+/* Base styles */
+body {
+  font-family: var(--font-sans);
+  background-color: var(--color-page);
+  color: var(--color-text-primary);
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+}
